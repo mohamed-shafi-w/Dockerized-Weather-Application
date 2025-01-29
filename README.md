@@ -22,7 +22,11 @@ docker init
 ```sh
 docker build -t my_weather_app:latest
 ```
-3️⃣ **Pull the Docker image from Dockerhub**  
+3️⃣ **Push the Docker image to the Dockerhub**
+```
+docker push shafi2000/my_weather_app:latest
+```
+3️⃣ **Pull the Docker image**  
 ```sh
 docker pull shafi2000/my_weather_app
 ```
