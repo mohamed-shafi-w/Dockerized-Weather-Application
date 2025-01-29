@@ -26,15 +26,15 @@ docker build -t my_weather_app:latest
 ```
 docker tag my_weather_app:latest shafi2000/my_weather_app:latest
 ```
-3️⃣ **Push the Docker image to the Dockerhub**
+4️⃣ **Push the Docker image to the Dockerhub**
 ```
 docker push shafi2000/my_weather_app:latest
 ```
-3️⃣ **Pull the Docker image**  
+5️⃣ **Pull the Docker image**  
 ```sh
 docker pull shafi2000/my_weather_app
 ```
-3️⃣ **Run the container**  
+6️⃣ **Run the container**  
 ```sh
 docker run -d -p 3000:3000 my_weather_app:latest
 ```
@@ -47,7 +47,13 @@ The application will be accessible at **`http://localhost:3000`**.
 ✅ Fully containerized React application  
 ✅ Uses **Node.js 18-alpine** as the base image for a lightweight setup  
 ✅ Easy to deploy on **any platform supporting Docker**  
-✅ Minimal setup required  
+✅ Minimal setup required
+
+---
+
+## 🎨 Output Screen
+
+Below is the output screen of the Dockerized Weather Application.
 
 ---
 
