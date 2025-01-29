@@ -54,6 +54,7 @@ The application will be accessible at **`http://localhost:3000`**.
 ## 🎨 Output Screen
 
 Below is the output screen of the Dockerized Weather Application.
+
 ![Image](https://github.com/user-attachments/assets/dcb3554d-67e7-4b2b-b3e8-2fa2923cd5c7)
 
 ---
