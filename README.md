@@ -22,6 +22,10 @@ docker init
 ```sh
 docker build -t my_weather_app:latest
 ```
+3️⃣ **Create a tag**
+```
+docker tag my_weather_app:latest shafi2000/my_weather_app:latest
+```
 3️⃣ **Push the Docker image to the Dockerhub**
 ```
 docker push shafi2000/my_weather_app:latest
