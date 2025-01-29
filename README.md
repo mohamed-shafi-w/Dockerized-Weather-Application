@@ -12,22 +12,23 @@ Ensure you have the following installed:
 
 ---
 
-## 🏷️ Building and Running the Docker Container  
+## 🏷️ Building and Running the Docker Container
 
-1️⃣ **Clone the repository**  
+1️⃣ **Initialize Docker**  
 ```sh
-git clone https://github.com/your-username/dockerized-weather-app.git
-cd dockerized-weather-app
+docker init
 ```
-
-2️⃣ **Build the Docker image**  
+2️⃣ **Build the image using Dockerfile**
 ```sh
-docker build -t weather-app .
+docker build -t my_weather_app:latest
 ```
-
+3️⃣ **Pull the Docker image from Dockerhub**  
+```sh
+docker pull shafi2000/my_weather_app
+```
 3️⃣ **Run the container**  
 ```sh
-docker run -d -p 3000:80 weather-app
+docker run -d -p 3000:3000 my_weather_app:latest
 ```
 The application will be accessible at **`http://localhost:3000`**.
 
